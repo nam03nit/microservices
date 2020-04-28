@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    config:
+      uri:  http://localhost:8001
+      fail-fast: false
+  application:
+    name: convertCurrency
+  profiles:
+    active: dev
+
+server:
+  port: 9091
